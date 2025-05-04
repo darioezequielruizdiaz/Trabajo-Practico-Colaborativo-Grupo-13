@@ -1,0 +1,18 @@
+.footer{
+    background-color: rgba(18, 18, 150, 0.247);
+}
+.pie{
+    list-style: none;
+}
+.redes{
+    display: grid;
+    grid-template-columns: 35px 35px 75px ;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+.subredes{
+ display: flex;
+ justify-content: flex-end;
+}
+
