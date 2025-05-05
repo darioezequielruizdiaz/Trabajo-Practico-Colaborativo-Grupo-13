@@ -4,235 +4,372 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Especies Abisales</title>
+    <title>Inicio</title>
+    <!-- Estilos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="assets/abissfish.png" type="image/x-icon">
 </head>
 
 <body>
-    <div class="container shadow-sm p-3 mb-5 bg-body-tertiary rounded mt-3">
-        <header class="d-flex justify-content-between align-items-center">
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Especies</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Boton2</a></li>
-            </ul>
-            <div>
-                <h1>Vida Abisal</h1>
+    <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark bg-blur bg-opacity-75 rounded-4 shadow px-4 py-2 mt-4 position-fixed top-0 start-50 translate-middle-x z-3 nav-w">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/abissfish.png" alt="logo" width="42" class="me-2">
+                <span>Vida Abisal</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="que-es.html">¿Qué es?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="especies.html">Especies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="caracteristicas.html">Caracteristicas</a>
+                    </li>
+                </ul>
             </div>
-            <img src="assets/abissfish.png" alt="abissfish" width="42px">
-        </header>
-    </div>
+        </div>
+    </nav>
 
-    <div class="container">
-        <section class="mb-4 fs-2 fw-bold">Calamares Abisales</section>
+    <main class="container-main px-1">
+        <section class="">
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/architeuthis_dux.jpg" class="img-fluid rounded" alt="calamar_gigante">
-            </div>
-            <div class="col-md-8">
-                <h3>Architeuthis dux (calamar gigante)</h3>
-                <p>Puede alcanzar más de 12 metros de longitud. Se cree que vive entre los 300 y 1000 metros de profundidad. Tiene grandes ojos adaptados a la oscuridad.</p>
-            </div>
-        </article>
+            <h2 class="text-center mb-5 text-main display-5 fw-bold">Calamares Abisales</h2>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/mesonychoteuthis_hamiltoni.jpg" class="img-fluid rounded" alt="calamar_colosal">
-            </div>
-            <div class="col-md-8">
-                <h3>Mesonychoteuthis hamiltoni (calamar colosal)</h3>
-                <p>Más robusto que el calamar gigante, puede medir hasta 14 metros. Tiene ganchos en sus tentáculos. Habita profundidades de hasta 2200 metros.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/architeuthis_dux.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen calamar gigante" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Architeuthis dux (calamar gigante)</h3>
+                        <p class="lead text-main mb-3">Puede alcanzar más de 12 metros de longitud. Se cree que vive
+                            entre los 300 y 1000 metros de profundidad. Tiene grandes ojos adaptados a la oscuridad.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/mastigoteuthis.jpg" class="img-fluid rounded" alt="mastigoteuthis">
-            </div>
-            <div class="col-md-8">
-                <h3>Mastigoteuthis spp. (calamar látigo)</h3>
-                <p>Posee tentáculos extremadamente largos y delgados. Se encuentra a más de 1000 metros de profundidad. Emite luz por bioluminiscencia.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/mesonychoteuthis_hamiltoni.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de mesonuchoteuthis" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Mesonychoteuthis hamiltoni (calamar colosal)</h3>
+                        <p class="lead text-main mb-3">Más robusto que el calamar gigante, puede medir hasta 14 metros. Tiene ganchos en sus tentáculos.
+                            Habita profundidades de hasta 2200 metros.ede alcanzar más de 12 metros de longitud. Se cree que vive
+                            entre los 300 y 1000 metros de profundidad. Tiene grandes ojos adaptados a la oscuridad.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/bathyteuthis_abyssicola.jpg" class="img-fluid rounded" alt="bathyteuthis">
-            </div>
-            <div class="col-md-8">
-                <h3>Bathyteuthis abyssicola</h3>
-                <p>Pequeño calamar rojo que vive entre 700 y 2000 metros. Se distingue por su cuerpo gelatinoso y bioluminiscencia.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/mastigoteuthis.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de mastigoteutis" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Mastigoteuthis spp. (calamar látigo)</h3>
+                        <p class="lead text-main mb-3">Posee tentáculos extremadamente largos y delgados. Se encuentra a más de 1000 metros de profundidad.
+                            Emite luz por bioluminiscencia.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/enoploteuthis.jpg" class="img-fluid rounded" alt="enoploteuthis">
-            </div>
-            <div class="col-md-8">
-                <h3>Enoploteuthis spp.</h3>
-                <p>Estos calamares pequeños son comunes en zonas mesopelágicas. Presentan órganos fotóforos que usan para camuflaje contra depredadores.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/bathyteuthis_abyssicola.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de bathyteuthis" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Bathyteuthis abyssicola</h3>
+                        <p class="lead text-main mb-3">Pequeño calamar rojo que vive entre 700 y 2000 metros. Se distingue por su cuerpo gelatinoso y
+                            bioluminiscencia.</p>
+                    </div>
+                </div>
+            </article>
 
-        <section class="mb-4 fs-2 fw-bold">Crustáceos Abisales</section>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/enoploteuthis.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de enoploteuthis" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Enoploteuthis spp.</h3>
+                        <p class="lead text-main mb-3">Estos calamares pequeños son comunes en zonas mesopelágicas. Presentan órganos fotóforos que usan
+                            para camuflaje contra depredadores.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/abyssal_crab.jpg" class="img-fluid rounded" alt="cangrejo_abisal">
-            </div>
-            <div class="col-md-8">
-                <h3>Cangrejo Abisal</h3>
-                <p>Vive en profundidades extremas, incluso a más de 1000 metros. Su caparazón es robusto para resistir las presiones abisales.</p>
-            </div>
-        </article>
+        </section>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/abyssal_shrimp.jpg" class="img-fluid rounded" alt="camarón_abisal">
-            </div>
-            <div class="col-md-8">
-                <h3>Camarón Abisal</h3>
-                <p>Habita en las profundidades donde las presiones son intensas, y sus ojos están adaptados para la oscuridad. Algunos de estos camarones son bioluminiscentes.</p>
-            </div>
-        </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/fangtooth_crab.jpg" class="img-fluid rounded" alt="cangrejo_dientes">
-            </div>
-            <div class="col-md-8">
-                <h3>Munida</h3>
-                <p>Este crustáceo es conocido por sus grandes pinzas y vive en profundidades entre 1500 y 3000 metros. Su biología es poco conocida.</p>
-            </div>
-        </article>
+        <section>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/deep_sea_krill.jpg" class="img-fluid rounded" alt="krill_abisal">
-            </div>
-            <div class="col-md-8">
-                <h3>Krill Abisal</h3>
-                <p>Estos pequeños crustáceos son vitales en la cadena alimenticia abisal, sirviendo de alimento para peces y ballenas a profundidades extremas.</p>
-            </div>
-        </article>
+            <h2 class="text-center mb-5 text-main display-5 fw-bold">Crustáceos Abisales</h2>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/abyssal_lobster.jpg" class="img-fluid rounded" alt="langosta_abisal">
-            </div>
-            <div class="col-md-8">
-                <h3>Langosta Abisal</h3>
-                <p>Vive en fondos oceánicos a más de 2000 metros, con una gran capacidad para detectar presas a través de su sentido del olfato.</p>
-            </div>
-        </article>
-        <section class="mb-4 fs-2 fw-bold">Peces Abisales</section>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/abyssal_crab.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de crangrejo abisal" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Cangrejo Abisal</h3>
+                        <p class="lead text-main mb-3">Vive en profundidades extremas, incluso a más de 1000 metros. Su caparazón es robusto para resistir
+                            las presiones abisales.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/borostomias_anoplogaster.jpg" class="img-fluid rounded" alt="borostomias">
-            </div>
-            <div class="col-md-8">
-                <h3>Borostomias antarcticus</h3>
-                <p>Pez dragón del Antártico con órganos bioluminiscentes y dientes largos. Habita entre los 500 y 2000 metros.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/abyssal_shrimp.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de camaron abisal" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Camarón Abisal</h3>
+                        <p class="lead text-main mb-3">Habita en las profundidades donde las presiones son intensas, y sus ojos están adaptados para la
+                            oscuridad. Algunos de estos camarones son bioluminiscentes.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/cyclothone.jpg" class="img-fluid rounded" alt="cyclothone">
-            </div>
-            <div class="col-md-8">
-                <h3>Cyclothone spp.</h3>
-                <p>Entre los peces más abundantes del planeta, viven en profundidades de 500 a 4000 m, con cuerpos translúcidos.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/fangtooth_crab.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de cangrejo sable" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Munida (Dientes de sable)</h3>
+                        <p class="lead text-main mb-3">Este crustáceo es conocido por sus grandes pinzas y vive en profundidades entre 1500 y 3000 metros.
+                            Su biología es poco conocida.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/idiacanthus.jpg" class="img-fluid rounded" alt="idiacanthus">
-            </div>
-            <div class="col-md-8">
-                <h3>Idiacanthus atlanticus</h3>
-                <p>Conocido como pez dragón atlántico, presenta dimorfismo sexual extremo y habita entre 500 y 2000 metros.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/deep_sea_krill.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen del krill" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Krill Abisal</h3>
+                        <p class="lead text-main mb-3">Estos pequeños crustáceos son vitales en la cadena alimenticia abisal, sirviendo de alimento para
+                            peces y ballenas a profundidades extremas.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/stomias.jpg" class="img-fluid rounded" alt="stomias">
-            </div>
-            <div class="col-md-8">
-                <h3>Stomias boa</h3>
-                <p>Pez alargado con órganos luminosos, especializado en la caza nocturna en profundidades de hasta 3000 metros.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/abyssal_lobster.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de la langosta abisal" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Langosta Abisal</h3>
+                        <p class="lead text-main mb-3">Vive en fondos oceánicos a más de 2000 metros, con una gran capacidad para detectar presas a través
+                            de su sentido del olfato.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/aristostomias.jpg" class="img-fluid rounded" alt="aristostomias">
-            </div>
-            <div class="col-md-8">
-                <h3>Aristostomias scintillans</h3>
-                <p>Se distingue por su mandíbula prominente y fotóforos. Vive entre los 1000 y 4000 metros.</p>
-            </div>
-        </article>
+        </section>
 
-        <section class="mb-4 fs-2 fw-bold">Moluscos Abisales</section>
+        <section>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/scaly_foot_gastropod.jpg" class="img-fluid rounded" alt="scaly_foot">
-            </div>
-            <div class="col-md-8">
-                <h3>Chrysomallon squamiferum (caracol escamoso)</h3>
-                <p>Vive en respiraderos hidrotermales a profundidades de más de 2800 m. Su caparazón está reforzado con hierro.</p>
-            </div>
-        </article>
+            <h2 class="text-center mb-5 text-main display-5 fw-bold">Peces Abisales</h2>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/giant_clam.jpg" class="img-fluid rounded" alt="almeja_gigante">
-            </div>
-            <div class="col-md-8">
-                <h3>Tridacna gigas (almeja gigante)</h3>
-                <p>Aunque no exclusivamente abisal, puede encontrarse en profundidades considerables. Filtra nutrientes del agua y luz mediante simbiontes.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/borostomias_anoplogaster.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de borostomias" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Borostomias antarcticus</h3>
+                        <p class="lead text-main mb-3">Pez dragón del Antártico con órganos bioluminiscentes y dientes largos. Habita entre los 500 y 2000
+                            metros.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/vampyroteuthis.jpg" class="img-fluid rounded" alt="vampyroteuthis">
-            </div>
-            <div class="col-md-8">
-                <h3>Vampyroteuthis infernalis (calamar vampiro)</h3>
-                <p>A medio camino entre pulpo y calamar. Vive hasta los 3000 m. Se alimenta de restos marinos, no de presas vivas.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/cyclothone.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de cyclothone" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Cyclothone spp.</h3>
+                        <p class="lead text-main mb-3">Entre los peces más abundantes del planeta, viven en profundidades de 500 a 4000 m, con cuerpos
+                            translúcidos.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/hirtomurex.jpg" class="img-fluid rounded" alt="hirtomurex">
-            </div>
-            <div class="col-md-8">
-                <h3>Hirtomurex oyamai</h3>
-                <p>Caracol de profundidad con una concha espinosa. Se encuentra en zonas abisales del Pacífico Occidental.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/idiacanthus.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de idicanthus" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Idiacanthus atlanticus</h3>
+                        <p class="lead text-main mb-3">Conocido como pez dragón atlántico, presenta dimorfismo sexual extremo y habita entre 500 y 2000
+                            metros.</p>
+                    </div>
+                </div>
+            </article>
 
-        <article class="row shadow-sm p-3 mb-5 bg-body-tertiary rounded g-4 align-items-center">
-            <div class="col-md-4">
-                <img src="assets/bathyomphalus.jpg" class="img-fluid rounded" alt="bathyomphalus">
-            </div>
-            <div class="col-md-8">
-                <h3>Bathyomphalus contortus</h3>
-                <p>Molusco gasterópodo que habita en ambientes profundos. Su concha pequeña está adaptada a altas presiones.</p>
-            </div>
-        </article>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/stomias.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de stomias" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Stomias boa</h3>
+                        <p class="lead text-main mb-3">Pez alargado con órganos luminosos, especializado en la caza nocturna en profundidades de hasta 3000
+                            metros.</p>
+                    </div>
+                </div>
+            </article>
 
-    </div>
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/aristostomias.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de aristostomias" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Aristostomias scintillans</h3>
+                        <p class="lead text-main mb-3">Se distingue por su mandíbula prominente y fotóforos. Vive entre los 1000 y 4000 metros.</p>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+
+        <section class="mb-4 fs-2 fw-bold">
+
+            <h2 class="text-center mb-5 text-main display-5 fw-bold">Moluscos Abisales</h2>
+
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/scaly_foot_gastropod.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen del scaly foot" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Chrysomallon squamiferum (caracol escamoso)</h3>
+                        <p class="lead text-main mb-3">Vive en respiraderos hidrotermales a profundidades de más de 2800 m. Su caparazón está reforzado con
+                            hierro.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/giant_clam.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen de la almeja gigante" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Tridacna gigas (almeja gigante)</h3>
+                        <p class="lead text-main mb-3">Aunque no exclusivamente abisal, puede encontrarse en profundidades considerables. Filtra nutrientes
+                            del agua y luz mediante simbiontes.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/vampyroteuthis.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen del campyroteuthis" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Vampyroteuthis infernalis (calamar vampiro)</h3>
+                        <p class="lead text-main mb-3">A medio camino entre pulpo y calamar. Vive hasta los 3000 m. Se alimenta de restos marinos, no de
+                            presas vivas.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/hirtomurex.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen del hirtomurex" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Hirtomurex oyamai</h3>
+                        <p class="lead text-main mb-3">Caracol de profundidad con una concha espinosa. Se encuentra en zonas abisales del Pacífico
+                            Occidental.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="container col-xxl-8 px-4 py-5 bg-abyss rounded-5 shadow-lg mb-5 mt-10">
+                <div class="row flex-lg-row align-items-center g-5 px-3">
+                    <div class="col-12 col-sm-12 col-lg-6">
+                        <img src="assets/img/bathyomphalus.jpg"
+                            class="d-block mx-lg-auto img-fluid shadow-lg rounded-5" alt="imagen del bathyomphalus" width="700"
+                            height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="display-5 fw-bold text-main lh-1 mb-3">Bathyomphalus contortus</h3>
+                        <p class="lead text-main mb-3">Molusco gasterópodo que habita en ambientes profundos. Su concha pequeña está adaptada a altas
+                            presiones.</p>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
@@ -240,4 +377,3 @@
 </body>
 
 </html>
-
