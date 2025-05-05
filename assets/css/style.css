@@ -27,10 +27,45 @@ body {
     margin-top: 9rem;
 }
 
-.nav-w {
-    width: 1200px;
-}
 
 .bg-blur {
     backdrop-filter: blur(5px);
 }
+
+/* Diseño responsivo */
+
+@media (min-width: 375px) {
+    .nav-w {
+      width: 360px;
+    }
+  }
+
+@media (min-width: 576px) {
+    .nav-w {
+      width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .nav-w {
+      width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .nav-w {
+      width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .nav-w {
+      width: 1140px;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .nav-w {
+      width: 1200px;
+    }
+  }
